@@ -12,6 +12,7 @@ import Analytics from "./pages/Analytics";
 import Customers from "./pages/Customers";
 import EmailCampaigns from "./pages/EmailCampaigns";
 import GeneralSettings from "./pages/GeneralSettings";
+import Landing from "./pages/Landing";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -23,7 +24,8 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Index />} />
+          <Route path="/" element={<Landing />} />
+          <Route path="/admin" element={<Index />} />
           <Route path="/login" element={<Login />} />
           <Route path="/products" element={<Products />} />
           <Route path="/orders" element={<Orders />} />
