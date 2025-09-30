@@ -45,6 +45,15 @@ const menuData: MenuItem[] = [
     ],
   },
   {
+    id: "crm",
+    icon: "Users",
+    title: "CRM",
+    items: [
+      { label: "Клиенты", href: "/customers" },
+      { label: "Аналитика", href: "/analytics" },
+    ],
+  },
+  {
     id: "modules",
     icon: "Grid3x3",
     title: "Доп. модули",
