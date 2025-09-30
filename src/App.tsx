@@ -11,6 +11,7 @@ import Orders from "./pages/Orders";
 import Analytics from "./pages/Analytics";
 import Customers from "./pages/Customers";
 import EmailCampaigns from "./pages/EmailCampaigns";
+import GeneralSettings from "./pages/GeneralSettings";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -29,6 +30,7 @@ const App = () => (
           <Route path="/analytics" element={<Analytics />} />
           <Route path="/customers" element={<Customers />} />
           <Route path="/email-campaigns" element={<EmailCampaigns />} />
+          <Route path="/settings" element={<GeneralSettings />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

@@ -15,7 +15,7 @@ const menuData: MenuItem[] = [
     icon: "Home",
     title: "Главная",
     items: [
-      { label: "Общие настройки", href: "#" },
+      { label: "Общие настройки", href: "/settings" },
       { label: "Страницы сайта", href: "#" },
       { label: "Меню сайта", href: "#" },
       { label: "Файлы", href: "#" },
