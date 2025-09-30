@@ -51,6 +51,7 @@ const menuData: MenuItem[] = [
     items: [
       { label: "Клиенты", href: "/customers" },
       { label: "Аналитика", href: "/analytics" },
+      { label: "Email-рассылки", href: "/email-campaigns" },
     ],
   },
   {
