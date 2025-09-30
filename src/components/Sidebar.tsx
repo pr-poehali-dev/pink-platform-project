@@ -38,8 +38,8 @@ const menuData: MenuItem[] = [
     title: "Мой магазин",
     items: [
       { label: "Разделы каталога", href: "#" },
-      { label: "Товары", href: "#" },
-      { label: "Заказы", href: "#" },
+      { label: "Товары", href: "/products" },
+      { label: "Заказы", href: "/orders" },
       { label: "Импорт/Экспорт", href: "#" },
       { label: "Настройки магазина", href: "#" },
     ],
