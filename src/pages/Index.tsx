@@ -12,6 +12,12 @@ interface DashboardItem {
 
 const dashboardItems: DashboardItem[] = [
   {
+    icon: "BarChart3",
+    title: "Аналитика",
+    description: "Статистика продаж, графики выручки, анализ по категориям и топ товаров с детальными метриками.",
+    href: "/analytics",
+  },
+  {
     icon: "Settings",
     title: "Общие настройки",
     description: "Общие настройки сайта: смена пароля, перенос на отдельный домен, настройки панели управления и т.д.",
